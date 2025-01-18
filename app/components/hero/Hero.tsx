@@ -156,7 +156,7 @@ const Hero = () => {
                     onClick={() => router.push('/side')}
                 >
                     <Image 
-                        src='/images/flow2.svg'
+                        src='/images/flow3.svg'
                         alt="code"
                         width={100}
                         height={100}
