@@ -160,9 +160,27 @@ const SideClient = () => {
                         <source src="/videos/airbnb.mp4" type="video/mp4"/>
                     </video>
                 </div>
+                <div className="flex flex-row gap-1">
+                    <div className="text-sm lg:text-base text-neutral-900 opacity-70">
+                        Followed a tutorial from @codewithantonio on YouTube to teach myself basic frontend and backend
+                        for the
+                    </div>
+                    <div className="
+                            text-sm 
+                            lg:text-base 
+                            text-neutral-900 
+                            opacity-70 
+                            underline 
+                            underline-offset-4
+                            cursor-pointer
+                            hover:opacity-30"
+                        onClick={() => router.push('/forestar')}
+                    >
+                        Forestar project 
+                    </div>
+                </div>
                 <div className="text-sm lg:text-base text-neutral-900 opacity-70">
-                    Followed a tutorial from @codewithantonio on YouTube to teach myself basic frontend and backend
-                    for the Forestar project - NextJS 13, TypeScript, MongoDB, Prisma, NextAuth, Tailwind CSS 
+                    - NextJS 13, TypeScript, MongoDB, Prisma, NextAuth, Tailwind CSS
                 </div>
             </div>
             <div className="flex flex-row items-center justify-center py-10 group gap-1 text-base text-neutral-900"
