@@ -11,6 +11,7 @@ import { IoIosArrowRoundUp } from "react-icons/io";
 
 import Image from "next/image";
 import Carousel from "../components/about/Carousel";
+import ImageStack from "../components/about/ImageStack";
 
 const AboutClient = () => {
     return (
@@ -23,33 +24,33 @@ const AboutClient = () => {
                     <div className="md:text-lg text-base mt-5">
                         I'm currently a junior at the University of British Columbia 
                         studying cognitive science with a minor in data science. My 
-                        interests surround ethical applications of data and technology 
-                        for human health and wellbeing.
+                        interests surround ethical applications of data and emerging 
+                        technologies.
                     </div>
                     <div className="md:text-lg text-base mt-5">
                         I've previously worked at the Mayo Clinic (Mayo Clinic Platform), 
                         BC Children's Hospital Research Institute, and the UBC Emerging Media Lab 
-                        in machine learning, data analysis, digital health, and AI ethics.
+                        on projects in AI/ML, data analysis, software development, and AI safety.
                     </div>
                     <div className="md:text-lg text-base mt-4">
                         Outside of work and school, you can usually find me teaching ballet, 
                         traveling, cooking, and continuing to learn new things.
                     </div>
                     <div className="mt-4 text-lg">
-                        Get in touch with me!
+                        Get in touch with me -
                     </div>
                     <div className="flex flex-row gap-2 group">
-                        <div className="pt-1 underline underline-offset-2 -mt-1 transition">
+                        <div className="pt-1 underline underline-offset-2 -mt-1 transition group-hover:opacity-50 cursor-pointer">
                             Email:
                         </div>
                         <a target="_blank" rel="noopener noreferrer" href="mailto:leesadie025@gmail.com">
-                            <div className="group-hover:opacity-50 transition cursor-pointer">
+                            <div className="group-hover:opacity-50 cursor-pointer transition">
                                 leesadie025@gmail.com
                             </div>
                         </a>
                     </div>
                     <div className="flex flex-row gap-2 group">
-                        <div className="pt-1 underline underline-offset-2 -mt-1 transition">
+                        <div className="pt-1 underline underline-offset-2 -mt-1 transition group-hover:opacity-50 cursor-pointer">
                             LinkedIn:
                         </div>
                         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/leesadie/">
@@ -59,7 +60,7 @@ const AboutClient = () => {
                         </a>
                     </div>
                     <div className="flex flex-row gap-2 group">
-                        <div className="pt-1 underline underline-offset-2 -mt-1 transition">
+                        <div className="pt-1 underline underline-offset-2 -mt-1 transition group-hover:opacity-50 cursor-pointer">
                             Github:
                         </div>
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/leesadie">
@@ -77,7 +78,7 @@ const AboutClient = () => {
                         items-center
                         pb-10"
                 >
-                    <Carousel />
+                    <ImageStack />
                 </div>
             </div>
         </Container>

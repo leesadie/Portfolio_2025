@@ -16,7 +16,6 @@ interface ImageData {
 const images: ImageData[] = [
     { src: about3 },
     { src: about4 },
-    { src: about2 },
     { src: ballet3 },
 ];
 

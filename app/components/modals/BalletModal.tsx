@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { IoIosInformationCircleOutline } from "react-icons/io";
 
 import useBalletModal from "../hooks/useBalletModal";
 import Modal from "../Modal";

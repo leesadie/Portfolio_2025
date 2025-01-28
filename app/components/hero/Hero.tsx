@@ -54,8 +54,8 @@ const Hero = () => {
                     
                 "
             >
-                Hi, I'm Sadie; I'm currently studying cognitive science and data science at UBC. 
-                My experience and interests are within ethical applications of data and technology for human health and wellbeing.
+                Hi, I'm Sadie; I'm currently studying cognitive science and data science at University of British Columbia. 
+                My experience and interests are within ethical applications of data and emerging technology.
             </div>
             <div className={`flex flex-col pt-10 text-base text-neutral-700 ${font_bold.className}`}>
                 RECENT WORK
