@@ -3,10 +3,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 
-import about3 from '@/public/images/about/about3.svg'
-import about4 from '@/public/images/about/about4.svg'
-import ballet3 from '@/public/images/about/ballet3.svg'
-
 const images = [
     'images/about/about3.svg',
     'images/about/about4.svg',
@@ -22,9 +18,6 @@ const ImageStack = () => {
         }, 4000);
         return () => clearInterval(interval);
     }, [])
-
-    const baseRotations = [-10, 0, 10];
-    const baseOffsets = [-20, 0, 20];
 
     return (
         <div className="relative w-80 h-80 mx-auto">

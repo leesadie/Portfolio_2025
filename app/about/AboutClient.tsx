@@ -76,7 +76,9 @@ const AboutClient = () => {
                         flex-col 
                         justify-center 
                         items-center
-                        pb-10"
+                        pb-10
+                        pt-10
+                        md:pt-0"
                 >
                     <ImageStack />
                 </div>
