@@ -16,7 +16,7 @@ import ImageStack from "../components/about/ImageStack";
 const AboutClient = () => {
     return (
         <Container>
-            <div className="flex md:flex-row flex-col pt-32 md:mx-40 mx-8 md:gap-14 text-neutral-900 justify-between pb-20">
+            <div className="flex md:flex-row flex-col pt-32 md:mx-44 mx-8 md:gap-0 text-neutral-900 justify-between pb-20">
                 <div className="flex flex-col md:w-1/2 text-neutral-900">
                     <div className={`${font_bold.className}`}>
                         ABOUT ME
@@ -24,7 +24,7 @@ const AboutClient = () => {
                     <div className="md:text-lg text-base mt-5">
                         I'm currently a junior at the University of British Columbia 
                         studying cognitive science with a minor in data science. My 
-                        interests surround ethical applications of data and emerging 
+                        interests surround safe applications of data and emerging 
                         technologies.
                     </div>
                     <div className="md:text-lg text-base mt-5">
@@ -33,40 +33,25 @@ const AboutClient = () => {
                         on projects in AI/ML, data analysis, software development, and AI safety.
                     </div>
                     <div className="md:text-lg text-base mt-4">
-                        Outside of work and school, you can usually find me teaching ballet, 
+                        Outside of work and school, you can usually find me dancing and teaching ballet, 
                         traveling, cooking, and continuing to learn new things.
                     </div>
                     <div className="mt-4 text-lg">
                         Get in touch with me -
                     </div>
-                    <div className="flex flex-row gap-2 group">
-                        <div className="pt-1 underline underline-offset-2 -mt-1 transition group-hover:opacity-50 cursor-pointer">
-                            Email:
-                        </div>
-                        <a target="_blank" rel="noopener noreferrer" href="mailto:leesadie025@gmail.com">
-                            <div className="group-hover:opacity-50 cursor-pointer transition">
-                                leesadie025@gmail.com
-                            </div>
+                    <div>
+                        <a target="_blank" rel="noopener noreferrer" href="mailto:leesadie025@gmail.com" className="transition hover:opacity-50 cursor-pointer">
+                            Email: leesadie025@gmail.com
                         </a>
                     </div>
-                    <div className="flex flex-row gap-2 group">
-                        <div className="pt-1 underline underline-offset-2 -mt-1 transition group-hover:opacity-50 cursor-pointer">
-                            LinkedIn:
-                        </div>
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/leesadie/">
-                            <div className="group-hover:opacity-50 transition cursor-pointer">
-                                @leesadie
-                            </div>
+                    <div>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/leesadie/" className="transition hover:opacity-50 cursor-pointer">
+                            LinkedIn: @leesadie
                         </a>
                     </div>
-                    <div className="flex flex-row gap-2 group">
-                        <div className="pt-1 underline underline-offset-2 -mt-1 transition group-hover:opacity-50 cursor-pointer">
-                            Github:
-                        </div>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/leesadie">
-                            <div className="group-hover:opacity-50 transition cursor-pointer">
-                                @leesadie
-                            </div>
+                    <div>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/leesadie" className="transition hover:opacity-50 cursor-pointer">
+                            Github: @leesadie
                         </a>
                     </div>
                 </div>

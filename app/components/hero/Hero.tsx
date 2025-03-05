@@ -54,8 +54,8 @@ const Hero = () => {
                     
                 "
             >
-                Hi, I'm Sadie; I'm currently studying cognitive science and data science at University of British Columbia. 
-                My experience and interests are within ethical applications of data and emerging technology.
+                Hi, I'm Sadie; I'm currently studying cognitive science and data science at the University of British Columbia. 
+                My experience and interests are within safe applications of data and emerging technology.
             </div>
             <div className={`flex flex-col pt-10 text-base text-neutral-700 ${font_bold.className}`}>
                 RECENT WORK
@@ -108,7 +108,7 @@ const Hero = () => {
                     />
                     <div className="flex flex-row justify-between text-neutral-700 text-base pt-3 tracking-tight">
                         <div className="">
-                            Mayo Clinic Platform - AI Imaging Process
+                            Mayo Clinic Platform - Radiology AI Workflow
                         </div>
                         <div className="opacity-50">
                             Summer 2024

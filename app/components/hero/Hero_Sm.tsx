@@ -52,7 +52,7 @@ const Hero_Sm = () => {
                 "
             >
                 Hi, I'm Sadie; I'm currently studying cognitive science and data science at UBC. 
-                My experience and interests are within ethical applications of data and emerging technology.
+                My experience and interests are within safe applications of data and emerging technology.
             </div>
             <div className={`flex flex-col pt-10 text-sm ${font_bold.className}`}>
                 RECENT WORK
@@ -105,7 +105,7 @@ const Hero_Sm = () => {
                     />
                     <div className="flex flex-row justify-between text-sm pt-3">
                         <div className="">
-                            Mayo Clinic Platform - AI Imaging Process
+                            Mayo Clinic Platform - Radiology AI Workflow
                         </div>
                         <div className="opacity-50">
                             Summer 2024
